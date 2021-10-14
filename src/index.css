@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'EB Garamond', serif; */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  content: '';
+  border-top: 2px solid #1868ae;
+}
+
+.nav-link.active {
+  content: '';
+  /* position: absolute; */
+  border-bottom: 2px solid #1868ae;
+}
+
+.homeSection {
+  background-image: linear-gradient(to right top, #010753, #030d5e, #04126a, #061876, #061e82, #061e82, #061e82, #061e82, #061876, #04126a, #030d5e, #010753);
+}
+
+.homeHeading {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.homeHeading h2 {
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-shadow: 2px -1px 7px rgba(0,0,0,0.6);
+
+}
+
+.homeHeading h2 span {
+  color: #FFF;
+  font-weight: 600;
+}
+
+Button {
+  color: white;
+}
+
+.HomeHeadingPara {
+  color: #061e82;
+  background-color: #FFF;
+  font-weight: 600;
+  padding: 10px 20px;
+  width: 66%;
+}
+
+.HomeImage {
+  /* animation: HomeImageRotate 4s ease-in-out 0s infinite normal none;  */
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.5s;
+}
+
+.navbar__link:hover {
+  transform: translateY(-2px);
+}
+
+.navbar__link--active {
+  border-bottom: 3px solid #29b6f6;
+  transition: border-bottom .5s ease-in-out;
+}
+
+@keyframes HomeImageRotate {
+  0% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* ******************
+About US Section
+********************** */
+
+.AboutSection {
+  background-image: linear-gradient(to right top, #010753, #030d5e, #04126a, #061876, #061e82, #061e82, #061e82, #061e82, #061876, #04126a, #030d5e, #010753);
+  color: #FFF;
+}
+
+.ServiceSection {
+  background-image: linear-gradient(to right top, #010753, #030d5e, #04126a, #061876, #061e82, #061e82, #061e82, #061e82, #061876, #04126a, #030d5e, #010753);
+}
+
+.card:hover {
+  box-shadow: 1px -1px 8px 2px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 1px -1px 8px 2px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 1px -1px 8px 2px rgba(255, 255, 255, 0.75);
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 10%;
+  transition: all 1s ease-in-out;
+  }
